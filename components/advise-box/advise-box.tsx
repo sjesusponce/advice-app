@@ -15,7 +15,7 @@ const AdviceBox = (props:any)=>{
         <section className='panel pt-6 px-8 pb-2 desktop:w-[22rem] mobile:w-[12.8rem]'>
             <div className='text-adv-neon-green desktop:text-[0.5rem] mobile:text-[0.4rem] text-center pb-2 tracking-[0.2rem]'>ADVICE #{count}</div>
             <article className='flex flex-col items-center'>
-                <h1 className='desktop:text-[1.25rem] mobile:text-[1rem] text-center pb-4'>"{props.advice}"</h1>
+                <h1 className='desktop:text-[1.25rem] mobile:text-[1rem] text-center pb-4'>&quot;{props.advice}&quot;</h1>
                 <div className='flex justify-between w-full pb-6'>
                     <span className='basis-2 relative before:border-b-2 before:border-adv-blue-gray desktop:before:w-[8.25rem] mobile:before:w-[3.75rem] before:block before:absolute before:top-[50%] before:translate-y-2/4'></span>
                     <FontAwesomeIcon className='w-[0.5rem]' icon={faPause}/>
