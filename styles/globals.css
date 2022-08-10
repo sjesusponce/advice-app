@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  html, body{
+    @apply p-0 m-0 font-manrope bg-adv-dark-blue text-base
+  }
+
+  a{
+    @apply text-inherit
+  }
+
+  *{
+    @apply box-border
+  }
+
+  .panel{
+    @apply rounded-md bg-adv-dark-gray text-adv-light-cyan
+  }
+}
